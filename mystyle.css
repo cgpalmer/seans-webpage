@@ -1,14 +1,14 @@
 body {
-    margin:0;
-    padding:0;
-    border:0;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
 }
 .logo {
     position: relative;
     top: 0;
     margin: 0;
-    padding: 0;
-    left: 50%;
+    padding-left: 10px;
+    right: 0;
     height:150px;
     width: 100%;
     background-color: black;
@@ -45,6 +45,7 @@ button {
     cursor: pointer;
     text-transform: uppercase;
     font-size: 1.75em;
+    
     
 }
 
@@ -102,27 +103,72 @@ button {
 
 
 .section {
-    height: 700px;
+    height: 400px;
     background-color: #B6B6B6;
-    margin: 200px 0;
-    text-align: center;
-
-}
+    margin-top: 200px;
+    text-align: left;
+  }
 
 .paragraph1 {
     width: 100%;
-    height: 100px;
-    padding-top: 175px; 
+    height: auto;
+    padding-top: 70px;
+    padding-left: 5%;
+   
     
 }
 
 .paragraph {
     width: 100%;
-    height: 100px;
-    padding-top: 50px; 
+    height: auto;
+    padding-left: 5%;
+    
+    
     
 }
 
-.h2 {
+.h3 {
     color: #000000;
+}
+
+.homepicswrapper {
+    padding-top: 2.5%;
+    height:100px;
+    
+}
+
+.homepics img {
+    height: auto;
+    float: left;
+    width: 30%;
+    padding-left: 2.5%;
+}
+
+.paragraph a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer {
+    height: 100px;
+    background-color: #000000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align:center;
+    margin: 0 auto;
+    line-height: 50px;
+   
+}
+
+.footer a{
+    text-decoration: none;
+    color: #B6B6B6;
+}
+
+.footer a:hover{
+    color: #B6B6B6;
+    text-decoration: underline;
+    cursor: pointer;
+
 }
